@@ -168,7 +168,6 @@ li {
 
 span.a {
   display: inline; /* the default for span */
-  padding: -10px;
   background-color: #DC8D66;
   z-index: 1;
 }
