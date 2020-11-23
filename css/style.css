@@ -83,8 +83,7 @@ p {
 ===========================================*/
 .logo {
   position: fixed;
-  margin-left: -3%;
-  margin-top: -2%;
+  margin: -2% 0% 0% -3%;
   float: left;
   overflow: hidden;
   z-index: 10;
@@ -106,10 +105,8 @@ p {
   top: 0;
   z-index: 1;
   background-color: #F4D4BF;
-  padding-right: 150px;
-  padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 150px 20px 30px;
+
 }
 
 .topnav a{
@@ -164,9 +161,7 @@ li {
 }
 
 .container h1 {
-  padding-left: 50px;
-  padding-right: 35px;
-  padding-bottom: 4px;
+  padding: 0 50px 4px 35px;
   position: relative;
 
 }
@@ -188,9 +183,7 @@ span.a {
 
 .rackets{
  position: absolute;
- padding-left: 45%;
- padding-right: 30%;
- padding-top: 9%;
+ padding: 9% 30% 0% 45%;
  z-index: 5;
  animation-duration: 3s;
  animation-name: fall;
@@ -219,23 +212,21 @@ span.a {
 
 .image1 {
 
-  display: block;
+  display: inline;
   margin: 3%;
   position: absolute;
   z-index: 7;
   background-color: #DC8D66;
   padding: 6%;
   margin-left: -2%;
-  z-index: 100;
+  z-index: 10;
 
 }
 
 .firstsectionbox {
-  padding-top: 0%;
-  padding-left: 48%;
-  padding-bottom: 30%;
-  padding-right: 5%;
+
   margin: 12% 0%;
+  padding: 0% 5% 30% 48%;
   position: absolute;
 
 }
@@ -251,6 +242,5 @@ span.a {
   line-height: 2;
   font-size: 18px;
   font-family: "Montserrat", "sans-serif";
-
 
 }
